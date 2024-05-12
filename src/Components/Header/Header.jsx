@@ -9,16 +9,11 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import netflixLogo from '../../assets/Images/icons/nflxlogo.png'
 import { Link } from 'react-router-dom';
 
-
-
-
 function Header() {
 
     const [show, handleShow] = useState(false);
     const dropDownMenu = useRef();
-
-
-
+    
     const DropDownMenu =()=>{
         dropDownMenu.current.classList.toggle('disp')
      }
@@ -37,16 +32,9 @@ function Header() {
                   handleShow(true);
             } 
             else handleShow(false);
-            });
-
-         
-        
+            });     
   
     }, []);
-
-
-
-
 
 
   return (
@@ -84,7 +72,7 @@ function Header() {
                     </ul>
                  </div>
 
-                 <div className='nav-icons'>
+                 <div className='nav-icons' >
                       <SearchIcon />
                       <NotificationsNoneOutlinedIcon />
                       <PersonOutlineIcon />

@@ -13,7 +13,7 @@ import NotFound from "./Components/NotFound/NotFound"
 function App() {
 
   return (
-    <>
+    <div className="APP">
     
   <Routes>
      
@@ -27,14 +27,12 @@ function App() {
         </Route>
 
         <Route path='*' element={<NotFound />} />
-       
+        
 
-
-    
-   </Routes>
+   </Routes>-
       
     
-    </>
+    </div>
   )
 }
 

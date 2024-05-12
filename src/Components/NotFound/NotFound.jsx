@@ -25,7 +25,7 @@
                             <p> Oops! The page you're looking isn't found. But fear not! Our thrilling homepage awaits, ready for an exciting adventure!
                             </p>
 
-                            <div className={notFoundSytles.butn}><button><Link to='/home'>Netflix Home</Link></button></div>
+                            <div className={notFoundSytles.butn}><button><Link to='/'>Netflix Home</Link></button></div>
                     </div>
                                 
 

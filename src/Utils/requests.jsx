@@ -8,7 +8,7 @@ const requests = [
         {title:'Action',           fetchUrl:`/discover/movie?api_key=${apiKey}&with_genres=28`,        isLargeRow:true},
         {title:'Comedy',           fetchUrl:`/discover/movie?api_key=${apiKey}&with_genres=35`,},
         {title:'Horror',           fetchUrl:`/discover/movie?api_key=${apiKey}&with_genres=27`,},
-        {title:'Romance',          fetchUrl:`/discover/movie?api_key=${apiKey}&with_genres=10749`,     isLargeRow:true},
+        // {title:'Romance',          fetchUrl:`/discover/movie?api_key=${apiKey}&with_genres=10749`,     isLargeRow:true},
         {title:'Family',           fetchUrl:`/discover/movie?api_key=${apiKey}&with_genres=10751`,     isLargeRow:true} , 
         {title:'Documentaries',    fetchUrl:`/discover/movie?api_key=${apiKey}&with_genres=99`,        isLargeRow:true},
         {title:'History',          fetchUrl:`/discover/movie?api_key=${apiKey}&with_genres=14`,        isLargeRow:true},
