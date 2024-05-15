@@ -36,7 +36,7 @@
     justify-content: space-between;
 }
 
-.nav-icons:nth-child(){
+.nav-icons svg{
   margin-right: 1rem;
 }
 
